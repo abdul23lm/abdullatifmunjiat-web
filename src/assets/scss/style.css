@@ -1544,7 +1544,7 @@ ul.react-tabs__tab-list {
   overflow: hidden;
 }
 
-.tm_read_more a {
+.tm_read_more button {
   text-decoration: none;
   display: inline-block;
   overflow: hidden;
@@ -1558,7 +1558,7 @@ ul.react-tabs__tab-list {
   cursor: pointer;
 }
 
-.tm_read_more a:before {
+.tm_read_more button:before {
   position: absolute;
   content: "";
   background-color: #000;
@@ -1582,7 +1582,7 @@ ul.react-tabs__tab-list {
           animation-timing-function: cubic-bezier(0.6, 0.01, 0, 1);
 }
 
-.tm_read_more a span {
+.tm_read_more button span {
   display: inline-block;
   position: relative;
   background-color: #fff;
@@ -1594,7 +1594,7 @@ ul.react-tabs__tab-list {
 }
 
 @media screen and (max-width: 767px) {
-  .tm_read_more a span {
+  .tm_read_more button span {
     -webkit-transform: translateX(0%);
             transform: translateX(0%);
   }
@@ -1605,7 +1605,7 @@ ul.react-tabs__tab-list {
 }
 
 @media screen and (max-width: 767px) {
-  .tm_news ul li .list_inner .tm_read_more a:before {
+  .tm_news ul li .list_inner .tm_read_more button:before {
     -webkit-animation: read-more-anim-2;
             animation: read-more-anim-2;
     -webkit-animation-fill-mode: forwards;
@@ -1617,7 +1617,7 @@ ul.react-tabs__tab-list {
   }
 }
 
-.tm_news ul li .list_inner:hover .tm_read_more a:before {
+.tm_news ul li .list_inner:hover .tm_read_more button:before {
   -webkit-animation: read-more-anim-2;
           animation: read-more-anim-2;
   -webkit-animation-fill-mode: forwards;
@@ -1686,7 +1686,7 @@ ul.react-tabs__tab-list {
   font-style: italic;
 }
 
-.tm_news ul li .list_inner:hover .tm_read_more a span {
+.tm_news ul li .list_inner:hover .tm_read_more button span {
   -webkit-transform: translateX(0%);
           transform: translateX(0%);
 }
@@ -1825,7 +1825,7 @@ ul.react-tabs__tab-list {
 
 .tm_modalbox_news .description_wrap .image {
   position: relative;
-  max-height: 450px;
+  min-height: 450px;
   z-index: -1;
   margin-bottom: 40px;
 }

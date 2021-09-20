@@ -6,21 +6,9 @@ Modal.setAppElement("#root");
 
 const News = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [isOpen2, setIsOpen2] = useState(false);
-  const [isOpen3, setIsOpen3] = useState(false);
-  const [isOpen4, setIsOpen4] = useState(false);
 
   function toggleModalOne() {
     setIsOpen(!isOpen);
-  }
-  function toggleModalTwo() {
-    setIsOpen2(!isOpen2);
-  }
-  function toggleModalThree() {
-    setIsOpen3(!isOpen3);
-  }
-  function toggleModalFour() {
-    setIsOpen4(!isOpen4);
   }
 
   return (
@@ -50,7 +38,7 @@ const News = () => {
               <div className="details">
                 <div className="extra">
                   <p className="date">
-                    By <a href="#">Abdul Latif Munjiat</a>
+                    By Abdul Latif Munjiat
                     <span>16 August 2021</span>
                   </p>
                 </div>
@@ -58,10 +46,10 @@ const News = () => {
                 <h3 className="title" onClick={toggleModalOne}>
                   Mengenal TALL Stack (TailwindCSS, AlpineJS, Laravel, dan Livewire)
                 </h3>
-                <div className="tm_read_more">
-                  <a onClick={toggleModalOne}>
+                <div>
+                  <button onClick={toggleModalOne} className="ib-button">
                     <span>Read More</span>
-                  </a>
+                  </button>
                 </div>
               </div>
               <Modal
@@ -90,7 +78,7 @@ const News = () => {
                       <div className="details">
                         <div className="extra">
                         <p className="date">
-                            By <a href="#">Abdul Latif Munjiat</a>
+                            By Abdul Latif Munjiat 
                             <span>16 August 2021</span>
                           </p>
                         </div>

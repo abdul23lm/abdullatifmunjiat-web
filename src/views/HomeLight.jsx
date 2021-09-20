@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import Home from "../components/Home";
 import About from "../components/About";
 import Portfolio from "../components/Portfolio";
-import Services from "../components/Services";
 import News from "../components/News";
 import Contact from "../components/Contact";
 
@@ -50,14 +49,6 @@ const HomeLight = () => {
                   <Tab>
                     <img
                       className="svg"
-                      src="/assets/img/svg/services.svg"
-                      alt="briefcase"
-                    />
-                    <span className="menu_content">Services</span>
-                  </Tab>
-                  <Tab>
-                    <img
-                      className="svg"
                       src="/assets/img/svg/paper.svg"
                       alt="paper"
                     />
@@ -97,10 +88,6 @@ const HomeLight = () => {
 
                 <TabPanel>
                   <Portfolio />
-                </TabPanel>
-
-                <TabPanel>
-                  <Services />
                 </TabPanel>
 
                 <TabPanel>
