@@ -146,19 +146,6 @@ const About = () => {
                         </div>
                       </div>
                     </div>
-                    
-                    <div className="progress_inner" data-value="80">
-                      <span>
-                        <span className="label">Go</span>
-                        <span className="number">50%</span>
-                      </span>
-                      <div className="background">
-                        <div className="bar">
-                        <div className="bar_in" style={{width: 50 + '%'}}></div>
-                        </div>
-                      </div>
-                    </div>                    
-
                   </div>
                 </div>
 
