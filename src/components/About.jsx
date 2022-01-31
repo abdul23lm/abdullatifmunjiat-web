@@ -22,7 +22,7 @@ const About = () => {
           <div className="description_inner">
             <div className="left">
               <p>
-                Hi there, I am Abdul Latif Munjiat.
+                Hi there, I am Abdul Latif Munjiat. Director of CV Priatif Digital Studio.
                 Founder of decodev.id and hawede.id.
                 focusing on the field Software Development especially Front-end.
                 I am always thirsty to learn something new about technological developments.
@@ -64,7 +64,7 @@ const About = () => {
                 </li>
                 <li>
                   <p>
-                    <span>Work:</span>Investamart, Invesnow
+                    <span>Work:</span>Invesnow, Inarray Indonesia
                   </p>
                 </li>
                 <li>
